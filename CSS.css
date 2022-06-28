@@ -1,0 +1,27 @@
+.main{
+    width: 100%;
+    height: 50vh;
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+.child{
+    background-color: blue;
+
+}
+.child img{
+width:100%
+}
+
+.child p{
+    color: white;
+}
+.child button{
+    background-color: black;
+    padding: 6px 10px;
+    color:white;
+    border-radius: 25px;
+    margin-left: 40%; 
+
+}
